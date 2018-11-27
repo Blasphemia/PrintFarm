@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7
 {
-    class Program
+    public class Season
     {
-        static void Main(string[] args)
+        enum Seasons
         {
-            Farm createFarm = new Farm();
-            createFarm.FarmCreation();
-
-
-
-
-            Console.ReadLine();
+            Spring,
+            Summer,
+            Autumn,
+            Winter
         }
     }
 }
